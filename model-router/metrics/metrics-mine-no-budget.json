@@ -1,0 +1,26 @@
+{
+  "policy": "mine-no-budget",
+  "seed": 42,
+  "requests": 5093,
+  "ok": 4512,
+  "failed": 224,
+  "no_route": 357,
+  "violations": {
+    "latency": 0,
+    "cost": 0,
+    "region": 0,
+    "min_quality": 0
+  },
+  "cost_usd": {
+    "total": 24.03631,
+    "acme": 11.286807,
+    "globex": 7.471993,
+    "initech": 5.27751
+  },
+  "latency_ms": {
+    "p50": 914,
+    "p95": 3747
+  },
+  "avg_quality": 8.1749,
+  "composite": 2714.3738
+}

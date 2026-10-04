@@ -1,0 +1,26 @@
+{
+  "policy": "b-cheap",
+  "seed": 42,
+  "requests": 5093,
+  "ok": 4816,
+  "failed": 275,
+  "no_route": 2,
+  "violations": {
+    "latency": 179,
+    "cost": 73,
+    "region": 0,
+    "min_quality": 1119
+  },
+  "cost_usd": {
+    "total": 15.284404,
+    "acme": 7.620544,
+    "globex": 4.477137,
+    "initech": 3.186722
+  },
+  "latency_ms": {
+    "p50": 524,
+    "p95": 3015
+  },
+  "avg_quality": 5.2708,
+  "composite": 677.8119
+}

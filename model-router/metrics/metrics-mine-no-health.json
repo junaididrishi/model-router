@@ -1,0 +1,26 @@
+{
+  "policy": "mine-no-health",
+  "seed": 42,
+  "requests": 5093,
+  "ok": 4495,
+  "failed": 224,
+  "no_route": 374,
+  "violations": {
+    "latency": 0,
+    "cost": 0,
+    "region": 0,
+    "min_quality": 0
+  },
+  "cost_usd": {
+    "total": 23.415647,
+    "acme": 11.581149,
+    "globex": 7.000467,
+    "initech": 4.83403
+  },
+  "latency_ms": {
+    "p50": 909,
+    "p95": 3807
+  },
+  "avg_quality": 8.1642,
+  "composite": 2844.6871
+}

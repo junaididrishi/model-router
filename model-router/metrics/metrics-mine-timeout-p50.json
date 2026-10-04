@@ -1,0 +1,26 @@
+{
+  "policy": "mine-timeout-p50",
+  "seed": 42,
+  "requests": 5093,
+  "ok": 3517,
+  "failed": 1141,
+  "no_route": 435,
+  "violations": {
+    "latency": 0,
+    "cost": 0,
+    "region": 0,
+    "min_quality": 0
+  },
+  "cost_usd": {
+    "total": 37.562369,
+    "acme": 20.620182,
+    "globex": 11.980636,
+    "initech": 4.96155
+  },
+  "latency_ms": {
+    "p50": 870,
+    "p95": 2853
+  },
+  "avg_quality": 7.7705,
+  "composite": 643.3026
+}

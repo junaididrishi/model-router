@@ -1,0 +1,266 @@
+[
+  {
+    "policy": "b-large",
+    "composite": -4678.5598,
+    "ok": 4975,
+    "failed": 118,
+    "no_route": 0,
+    "violations": {
+      "latency": 702,
+      "cost": 642,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 135.420489,
+      "acme": 64.529373,
+      "globex": 43.519884,
+      "initech": 27.371232
+    },
+    "count_429": 464,
+    "borealis_outage_calls": 0,
+    "context_exceeded_calls": 88
+  },
+  {
+    "policy": "b-cheap",
+    "composite": 677.8119,
+    "ok": 4816,
+    "failed": 275,
+    "no_route": 2,
+    "violations": {
+      "latency": 179,
+      "cost": 73,
+      "region": 0,
+      "min_quality": 1119
+    },
+    "cost_usd": {
+      "total": 15.284404,
+      "acme": 7.620544,
+      "globex": 4.477137,
+      "initech": 3.186722
+    },
+    "count_429": 544,
+    "borealis_outage_calls": 8,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine",
+    "composite": 2836.9924,
+    "ok": 4496,
+    "failed": 220,
+    "no_route": 377,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 23.317878,
+      "acme": 11.499415,
+      "globex": 7.019475,
+      "initech": 4.798989
+    },
+    "count_429": 34,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-no-health",
+    "composite": 2844.6871,
+    "ok": 4495,
+    "failed": 224,
+    "no_route": 374,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 23.415647,
+      "acme": 11.581149,
+      "globex": 7.000467,
+      "initech": 4.83403
+    },
+    "count_429": 34,
+    "borealis_outage_calls": 39,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-no-budget",
+    "composite": 2714.3738,
+    "ok": 4512,
+    "failed": 224,
+    "no_route": 357,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 24.03631,
+      "acme": 11.286807,
+      "globex": 7.471993,
+      "initech": 5.27751
+    },
+    "count_429": 41,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-no-rate-preview",
+    "composite": 2848.1909,
+    "ok": 4507,
+    "failed": 209,
+    "no_route": 377,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 23.767953,
+      "acme": 12.125656,
+      "globex": 6.829027,
+      "initech": 4.81327
+    },
+    "count_429": 186,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-unknown-chat",
+    "composite": 2878.2896,
+    "ok": 4532,
+    "failed": 211,
+    "no_route": 350,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 6
+    },
+    "cost_usd": {
+      "total": 22.85802,
+      "acme": 11.485928,
+      "globex": 6.696704,
+      "initech": 4.675388
+    },
+    "count_429": 21,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-unknown-expected",
+    "composite": 2813.8983,
+    "ok": 4493,
+    "failed": 230,
+    "no_route": 370,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 22.615082,
+      "acme": 11.11619,
+      "globex": 6.834934,
+      "initech": 4.663958
+    },
+    "count_429": 29,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-timeout-p50",
+    "composite": 643.3026,
+    "ok": 3517,
+    "failed": 1141,
+    "no_route": 435,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 37.562369,
+      "acme": 20.620182,
+      "globex": 11.980636,
+      "initech": 4.96155
+    },
+    "count_429": 47,
+    "borealis_outage_calls": 8,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-timeout-p95",
+    "composite": 2733.8131,
+    "ok": 4461,
+    "failed": 257,
+    "no_route": 375,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 23.836847,
+      "acme": 11.726828,
+      "globex": 7.250514,
+      "initech": 4.859504
+    },
+    "count_429": 35,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-timeout-p99",
+    "composite": 2840.0849,
+    "ok": 4501,
+    "failed": 217,
+    "no_route": 375,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 23.753256,
+      "acme": 11.525993,
+      "globex": 7.440964,
+      "initech": 4.786299
+    },
+    "count_429": 35,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  },
+  {
+    "policy": "mine-timeout-p95x1.5",
+    "composite": 2853.2429,
+    "ok": 4509,
+    "failed": 210,
+    "no_route": 374,
+    "violations": {
+      "latency": 0,
+      "cost": 0,
+      "region": 0,
+      "min_quality": 0
+    },
+    "cost_usd": {
+      "total": 23.602857,
+      "acme": 11.77411,
+      "globex": 7.030721,
+      "initech": 4.798026
+    },
+    "count_429": 33,
+    "borealis_outage_calls": 7,
+    "context_exceeded_calls": 0
+  }
+]

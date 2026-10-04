@@ -1,0 +1,26 @@
+{
+  "policy": "mine-no-rate-preview",
+  "seed": 42,
+  "requests": 5093,
+  "ok": 4507,
+  "failed": 209,
+  "no_route": 377,
+  "violations": {
+    "latency": 0,
+    "cost": 0,
+    "region": 0,
+    "min_quality": 0
+  },
+  "cost_usd": {
+    "total": 23.767953,
+    "acme": 12.125656,
+    "globex": 6.829027,
+    "initech": 4.81327
+  },
+  "latency_ms": {
+    "p50": 916,
+    "p95": 3763
+  },
+  "avg_quality": 8.1657,
+  "composite": 2848.1909
+}

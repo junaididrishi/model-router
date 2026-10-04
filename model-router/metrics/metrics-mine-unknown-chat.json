@@ -1,0 +1,26 @@
+{
+  "policy": "mine-unknown-chat",
+  "seed": 42,
+  "requests": 5093,
+  "ok": 4532,
+  "failed": 211,
+  "no_route": 350,
+  "violations": {
+    "latency": 0,
+    "cost": 0,
+    "region": 0,
+    "min_quality": 6
+  },
+  "cost_usd": {
+    "total": 22.85802,
+    "acme": 11.485928,
+    "globex": 6.696704,
+    "initech": 4.675388
+  },
+  "latency_ms": {
+    "p50": 880,
+    "p95": 3757
+  },
+  "avg_quality": 8.1158,
+  "composite": 2878.2896
+}

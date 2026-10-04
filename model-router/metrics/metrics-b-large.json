@@ -1,0 +1,26 @@
+{
+  "policy": "b-large",
+  "seed": 42,
+  "requests": 5093,
+  "ok": 4975,
+  "failed": 118,
+  "no_route": 0,
+  "violations": {
+    "latency": 702,
+    "cost": 642,
+    "region": 0,
+    "min_quality": 0
+  },
+  "cost_usd": {
+    "total": 135.420489,
+    "acme": 64.529373,
+    "globex": 43.519884,
+    "initech": 27.371232
+  },
+  "latency_ms": {
+    "p50": 1886,
+    "p95": 6893
+  },
+  "avg_quality": 9.1023,
+  "composite": -4678.5598
+}
